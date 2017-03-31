@@ -1,0 +1,47 @@
+This Spring Semester marks the second time that I have worked on a student game development project.
+Before I go into my Senior Project, another development project, I wanted to collect and share my thoughts on the process.
+Now I have only had limited experience in an actual studio position, but this story may hold true for any project management perspective.
+There are three topics specifically I want to address: the time frame, the mindset, and the limitations.
+
+First and foremost students have a much shorter time frame for game development. 
+This is a result of an acclimation of things.
+One of these is the amount of time in general a student has to dedicate to a project. 
+Each student have a list of commitments that they decide to pursue. 
+I separate these into two categories: school related and non-school related.
+The school related activities are something unique to student projects, but non-school related ones are something every student deals with.
+However, with the addition of the school activities the time a student has available to spend on a project becomes heavily restricted.
+
+Another is the general deadline in which students need to complete the project. 
+However, I feel this one is more related to the student mindset.
+Most of the projects students start will only last a semester at most, potentially shorter if they are in a program like Champlain's Capstone.
+This means that an average project will run for about four months from start to finish.
+After working in a studio, I believe this is actually a good time frame since a studio is likely to have a major deadline in a similar period.
+The issue stems from the aforementioned time availability. 
+Studios not only have a place to work together, but are able to meet there for around eight hours each work day.
+At Champlain, having a person work on the project for more than eight hours a week is seen as the exception not the norm.
+
+One of the contributing factors to this is the aforementioned commitments, but another important factor is the student mindset itself.
+For most students, when they arrive in a college they have been in a school environment for their entire life, 18 years on average.
+As a result, an assumption can be made that they primarily focus on the grade they receive rather than getting fulfilment out of the project.
+This effect is compounded by the time commitment since they are more likely to stretch themselves over a number of activities.
+Therefore, the game development class may not be their top priority and as a result they want to do the minimum amount of work to get a good grade.
+
+So not only do they have a limited amount of time to commit to a project, students don't tend to have a large drive to work longer than eight hours.
+This is further compounded through the teachers in the other classes the student is taking.
+They may take a class with a teacher who perceives their class as what the student needs to be focusing on.
+Believing this, the teacher assigns the class a large amount of homework and strictly grades the work they submit.
+Thus, the student is required to spend more time on the class to receive a batter grade, since good grades tend to be a goal for most students.
+
+There are a number of limitations that stem from the above two points.
+One which I believe is the biggest problem is meeting.
+At a studio, since you have a space in which you can reliably believe someone is at for around eight hours a day it is easy to work with them.
+Students need to plan when to see each other in person. With larger and larger teams this becomes more and more difficult.
+And, as any project manager knows, time spent face to face is drastically the best use of time on a project.
+There are many things that are easier to communicate and problems are addressed and solved much more easily face to face.
+Projects with students have dramatically less face time, and as a result ideas are limited in how far they can be developed.
+
+Now this doesn't mean that it's impossible for a student game to have qualities of a hit, or even become a hit.
+However, most are greatly limited in their ability to even have the opportunity to reach that far.
+This limitation can be reduced through producers, effective communication, and the like.
+Additionally, this can also be viewed as the challenge students need to overcome, and a main point in going to college in the first place.
+On the flip side, both of those topics are for another post. Thank you for reading! Hope you learned something new about student game developers.

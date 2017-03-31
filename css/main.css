@@ -1,6 +1,9 @@
 body {
     margin: 60px auto;
     width: 70%;
+	/*background-color: #5FBD5C;*/
+	/*background-color: #53AD50;*/
+	background-color: #489E45;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -15,10 +18,10 @@ nav ul li{
 footer ul li {
 	display: inline;
 	margin-right: 20px;
- }
+}
 a {
     text-decoration: none;
-    color: #999;
+    color: #D2D2D2;
 }
 a:hover {
     text-decoration: underline;
@@ -26,21 +29,22 @@ a:hover {
 h1 {
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
+	color: white;
 }
 p {
     font-size: 1.5em;
     line-height: 1.4em;
-    color: #333;
+    color: white;
 }
 p.message{
 	font-size: 1em;
 	line-height: 1em;
-	color: #333;
+	color: white;
 }
 span.note{
     font-size: 1em;
     line-height: 1em;
-    color: #333;
+    color: white;
 }
 footer {
     border-top: 1px solid #d5d5d5;
