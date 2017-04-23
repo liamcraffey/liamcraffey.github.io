@@ -1,20 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Roboto');
 body {
-    margin: 60px auto;
+    
+	margin: 60px auto;
     width: 70%;
 	/*background-color: #5FBD5C;*/
 	/*background-color: #53AD50;*/
 	/*background-color: #489E45;*/
-	background-color: #14A114;
+	/*background-color: #14A114;*/
+	background-color: #438C41;8
+	/*background-color: #5C8C46;*/
 }
+
 nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family: 'Montserrat', sans-serif;
     padding: 0px;
     list-style: none;
     font-weight: bold;
+	
 }
 nav ul li{
     display: inline;
     margin-right: 20px;
+	font-family: 'Montserrat', sans-serif;
 }
 footer ul li {
 	display: inline;
@@ -23,24 +30,30 @@ footer ul li {
 a {
     text-decoration: none;
     color: #D2D2D2;
+	font-family: 'Montserrat', sans-serif;
 }
 a:hover {
     text-decoration: underline;
 }
 h1 {
     font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family: 'Montserrat', sans-serif;
 	color: white;
+}
+h2{
+	font-family: 'Open Sans', sans-serif;
 }
 p {
     font-size: 1.5em;
     line-height: 1.4em;
     color: white;
+	font-family: 'Roboto', sans-serif;
 }
 p.message{
 	font-size: 1em;
 	line-height: 1em;
 	color: white;
+	font-family: 'Roboto', sans-serif;
 }
 span.note{
     font-size: 1em;
@@ -55,8 +68,18 @@ footer {
 ul.posts { 
     margin: 20px auto 40px; 
     font-size: 1.5em;
+	font-family: 'Montserrat', sans-serif;
 }
 
 ul.posts li {
     list-style: none;
+	font-family: 'Montserrat', sans-serif;
+}
+div.post{
+	color:white;
+}
+
+pre {
+	font-size: 1.2em;
+	font-family: 'Roboto', sans-serif;
 }
