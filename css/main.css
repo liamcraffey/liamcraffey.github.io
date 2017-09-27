@@ -2,7 +2,7 @@
 body {
     
 	margin: 60px auto;
-    width: 70%;
+    width: 90%;
 	/*background-color: #5FBD5C;*/
 	/*background-color: #53AD50;*/
 	/*background-color: #489E45;*/
@@ -77,6 +77,7 @@ ul.posts li {
 }
 div.post{
 	color:white;
+	text-align: left;
 }
 
 pre {
