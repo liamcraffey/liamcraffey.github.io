@@ -1,4 +1,3 @@
-# liamcraffey.github.io
+# Liam Craffey's Personal Resume
 
-## Synopsis
-This repository is for a personal website that I (Liam Craffey) am starting up.
+This is a personal website for Liam Craffey. It acts as a Resume, Portfolio, and Blog. It was created using the Ja - Resume theme and personalized by Liam Craffey.
