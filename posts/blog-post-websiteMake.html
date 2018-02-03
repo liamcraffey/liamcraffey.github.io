@@ -73,8 +73,8 @@
         
         <!-- Post Image -->
         <div class="post-image bg-image-container">
-            <img src="../assets/img/posts/marketingGo.png" alt="Broken">
-            <!--Image source: https://3t827putmhzpysma2wygdaea-wpengine.netdna-ssl.com/sbrc/wp-content/uploads/sites/2/1200x628-DLXblog_5-free-tools-to-create-your-small-business-marketing-plan-1200x675.png-->
+            <img src="../assets/img/posts/htmlCode.jpg" alt="Broken">
+            <!--Image source: https://media-exp2.licdn.com/mpr/mpr/AAEAAQAAAAAAAAqXAAAAJDY1YTBhN2NkLTMxODktNGUzZC1iNTc5LTVhNGYxMTQ0MzBjZg.jpg-->
         </div>
     
         <div class="post-content section-content">
@@ -82,19 +82,19 @@
                 <div class="row">
                     <div class="col-lg-10 push-lg-1">
                         <nav class="post-nav">
-                            <a href="blog-post-websiteMake.html"><i class="ti-angle-left"></i></a>
+                            <a href="blog-horizontal.html"><i class="ti-angle-left"></i></a>
                             <a href="blog-horizontal.html"><i class="ti-menu"></i></a>
-                            <a href="blog-post-seniorProdStart.html"><i class="ti-angle-right"></i></a>
+                            <a href="blog-post-marketingGo.html"><i class="ti-angle-right"></i></a>
                         </nav>
                         <div class="post-header">
-                            <span class="date text-muted">26 January 2018</span>
-                            <h1 class="post-title">Marketing is A Go</h1>
+                            <span class="date text-muted">3 February 2018</span>
+                            <h1 class="post-title">Website Creation</h1>
                             <ul class="post-meta">
                                 <!--<li><i class="li-usb1"></i><a href="#">Sport</a>, <a href="#">Motivation</a></li>
                                 <li><i class="li-feedback"></i>5 Comments</li>-->
                             </ul>
                         </div>
-                        <p class="lead">Going into this semester I have one goal as my team’s producer: ship the game. With this responsibility comes the assumption of selling the game once it’s released. Thus, this is a perfect opportunity for me to manage a marketing campaign for a video game title. My goal is to generate as much hype about Celestialpod as I can before the end of the semester, and to help towards that this week I focused on setting up a plan. There are a couple things I believe are important for me to succeed: a set schedule, quality content, and ease of information. </p>
+                        <p class="lead">For a budding social media campaign a website is the thing that connects all your various outlets. It has links to your Facebook, Email list, Twitter, and potentially blog posts. This week I tackled the daunting task of setting up our own website for Celestialpod. However, first I realized I needed to understand how to host a website at all.</p>
                         <!-- Blockquote -->
                         <!--<blockquote class="blockquote animated" data-animation="fadeIn">
                             <p class="mb-2">It was the best coach I’ve ever had!</p>
@@ -104,13 +104,25 @@
                             </footer>
                         </blockquote>-->
                         <p>
-                        	Out of all three, setting up a schedule to post was probably what I found to be the easiest. I merely created a weekly schedule with specific dates on when to post on certain sites. In this regard I will also be using a management tool to manage all my social media posts from one place: MailChimp. I began using MailChimp last semester during QA to start building an Email Subscriber base. To this date we’ve got over 60 people signed up for emails. A handy feature to this program is also connecting social media outlets such as Facebook and Twitter. Along with the analytical tools available, I’ll be able to effectively manage my content to assure its quality.
+                        	A while ago I started creating an updated online portfolio/website/blog. Once I finished the project, made sure it was all connected properly, and had the needed images, I tried to host it on GitHub pages. The response aws repeated “build page failed” messages. So when I started the task of making our website, I knew that it was going to be necessary to understand what was going on in order to make any progress.
                         </p>
-						<p>In terms of content, when doing research, I found many indie developers merely posted updates about the progress of development. New features, new enemies, etc. However, I feel like for this type of marketing to be remotely successful it needs to already have an established interested community. Without such an interest people are much less likely to care about the content, so I can’t follow that model exactly. I can, and will, have content updates but first I need to merely gain interest. My main idea for generating this is highlighting current features. Perhaps a gif of a squid falling showcasing the game is physics based. Maybe a gif of a squid using their tentacles to leap around a level. Showing off the destructible environments of the ships, and potentially them self-destructing at the end. I want to use the current mechanics to generate hype and spread information about the game.
+						<p>The state issue was a supposedly open bracket in a ReadMe template file. However, in the build failure message itself it included the correct closing brackets it then said to add. Nothing I did got rid of the failure. Even if I deleted the trouble file it would simply go to the next plugins ReadMe and break. Once I discovered this I started to think that it might not be the code itself, but rather with GitHub.
+
                         </p>
-                        <p>That information also needs to be easily accessed. When people get interested in our game they need to be able to find out all the available information quickly. If they can’t, there’s a serious risk of us losing them as a potential customer. For this I need a way to congregate all the information in one place that I can point them to: a website. I know this task will take a long time and so will have to dedicate one, or two, sprints solely to that. However, that website should be able to tell people what the game is about, how they can stay up to date, provide material if they want to cover it, and provide them a sneak peak at our development process.
+                        <p>GitHub uses a system called Jekyll. It can be understood as a way to easily manage a large site through configuration files. This system is built innate into GitHub and is set up as an opt-out function. The theme I was using was built for BootStrap which is has primarily HTML/CSS/JavaScript based structure. Thus, GitHub was trying to use Jekyll to build my site and it was causing the website to crash upon build. Once I opted out of Jekyll, which on windows requires you to name a blank file “.nojekyll.” instead of “.nojekyll,” all my problems seemingly disappeared. The theme was able to be built to GitHub and I finally understood how to easily use GitHub to host websites.
                         </p>
-						<p>I’m only just beginning my journey down this process and am excited to see where it leads. All I’m looking for is more than 0 sales on launch. 
+						<img class="img-fluid" src="../assets/img/posts/In text/personalLanding.PNG">
+						<p>Throughout this whole process I gained a deep familiarity with the requirements around hosting on GitHub. In order to properly test the code without disrupting what I previously had, I needed to set up multiple repositories on GitHub. These new pages also have a different structure to them, and need special settings in order to function properly. With this knowledge I can now confidently face issues when setting up our team’s website.
+						</p>
+						<p>I plan to use more Bootstrap themes on the Celestialpod page. The reason for this is that they tend to easily work with mobile automatically, and I’ve become accustomed to working with HTML. However, this means that I will need to use more than one free theme in order to both have a simple landing page and a blog page. Using the knowledge I’ve gained, I set up two repositories: one has the landing page while one is solely dedicated to the blog. 
+						</p>
+						<img class="img-fluid" src="../assets/img/posts/In text/blogLanding.PNG">
+						<p>These are easily able to be linked back and forth since I can merely use the https address for each. It also means, once finalized, I only need to go into the blog repository to add posts instead of opening the landing page. The hard part is setting up both websites to look slick and that all the bells and whistles work. Thankfully the Blog site was pretty easy to setup, and <a href="https://gwamm.github.io/blog/index.html" target="_blank">we’ve begun posting</a>, but the base website isn’t so friendly.
+						</p>
+						<p>My main issue has been in regards to the “Features” section where we lay out the main features. Unfortunately I wasn’t able to solve all the issues that popped up, including a max file size upload limit that I ran into right at the end. In order to solve this I’m planning on messing around with Git Large File Storage. Expect another blog post to explore that bit!
+						</p>
+						<img class="img-fluid" src="../assets/img/posts/In text/websiteLanding.PNG">
+						<p>All in all I feel like I’ve become a lot more confident working with HTML as a result of this project. The team seems really excited with how the landing page looks, and I’m pumped to start sharing it. If the base website isn’t done by Sunday though I’m going to be pretty sad.
 						</p>
                         <p>Thank you for reading!</p>
 						<br>
