@@ -73,8 +73,8 @@
         
         <!-- Post Image -->
         <div class="post-image bg-image-container">
-            <img src="../assets/img/posts/htmlCode.jpg" alt="Broken">
-            <!--Image source: https://media-exp2.licdn.com/mpr/mpr/AAEAAQAAAAAAAAqXAAAAJDY1YTBhN2NkLTMxODktNGUzZC1iNTc5LTVhNGYxMTQ0MzBjZg.jpg-->
+            <img src="../assets/img/posts/backlogRefine.png" alt="Broken">
+            <!--Image source: https://www.qxf2.com/assets/img/group_discussions.png-->
         </div>
     
         <div class="post-content section-content">
@@ -82,19 +82,19 @@
                 <div class="row">
                     <div class="col-lg-10 push-lg-1">
                         <nav class="post-nav">
-                            <a href="blog-post-backlogRefine.html"><i class="ti-angle-left"></i></a>
+                            <a href="blog-horizontal.html"><i class="ti-angle-left"></i></a>
                             <a href="blog-horizontal.html"><i class="ti-menu"></i></a>
-                            <a href="blog-post-marketingGo.html"><i class="ti-angle-right"></i></a>
+                            <a href="blog-post-websiteMake.html"><i class="ti-angle-right"></i></a>
                         </nav>
                         <div class="post-header">
                             <span class="date text-muted">9 February 2018</span>
-                            <h1 class="post-title">Website Creation</h1>
-                            <ul class="post-meta">
+                            <h1 class="post-title">Backlog Refinement</h1>
+                            <!--<ul class="post-meta">
                                 <!--<li><i class="li-usb1"></i><a href="#">Sport</a>, <a href="#">Motivation</a></li>
-                                <li><i class="li-feedback"></i>5 Comments</li>-->
-                            </ul>
+                                <li><i class="li-feedback"></i>5 Comments</li>
+                            </ul>-->
                         </div>
-                        <p class="lead">For a budding social media campaign a website is the thing that connects all your various outlets. It has links to your Facebook, Email list, Twitter, and potentially blog posts. This week I tackled the daunting task of setting up our own website for Celestialpod. However, first I realized I needed to understand how to host a website at all.</p>
+                        <p class="lead">By far one of the biggest restrictions student game development teams face is time availability. Just having team members who are passionate isn’t enough. Students find themselves clutched within multiple points of responsibility, and by their senior year tend to be busy almost every day all day. I’ve talked about this at length in a previous blog post, so within this one I wanted to focus on how this affects Backlog Refinement.</p>
                         <!-- Blockquote -->
                         <!--<blockquote class="blockquote animated" data-animation="fadeIn">
                             <p class="mb-2">It was the best coach I’ve ever had!</p>
@@ -104,26 +104,13 @@
                             </footer>
                         </blockquote>-->
                         <p>
-                        	A while ago I started creating an updated online portfolio/website/blog. Once I finished the project, made sure it was all connected properly, and had the needed images, I tried to host it on GitHub pages. The response aws repeated “build page failed” messages. So when I started the task of making our website, I knew that it was going to be necessary to understand what was going on in order to make any progress.
+                        	A Product Backlog is the entire list of features, ideas, etc that might go into a project. A Product Refinement Meeting is for the team to pick apart the product backlog. They break down large user stories and assign Story Points to them. This allows the team to break the project down into more manageable chunks while being able to more accurately track velocity. The problem for student teams is that this process can take a long time.
                         </p>
-						<p>The state issue was a supposedly open bracket in a ReadMe template file. However, in the build failure message itself it included the correct closing brackets it then said to add. Nothing I did got rid of the failure. Even if I deleted the trouble file it would simply go to the next plugins ReadMe and break. Once I discovered this I started to think that it might not be the code itself, but rather with GitHub.
+						<p>In order to accurately gauge how many story points a story takes requires experience interacting with other disciplines. However, students are just beginning to understand the boundaries of their own study, let alone the others. This results in the process of coming to a decided upon number not only longer but less accurate. For this reason we need to expand when we refine the backlog.
 
                         </p>
-                        <p>GitHub uses a system called Jekyll. It can be understood as a way to easily manage a large site through configuration files. This system is built innate into GitHub and is set up as an opt-out function. The theme I was using was built for BootStrap which is has primarily HTML/CSS/JavaScript based structure. Thus, GitHub was trying to use Jekyll to build my site and it was causing the website to crash upon build. Once I opted out of Jekyll, which on windows requires you to name a blank file “.nojekyll.” instead of “.nojekyll,” all my problems seemingly disappeared. The theme was able to be built to GitHub and I finally understood how to easily use GitHub to host websites.
+                        <p>Rather than crushing the entire refinement into one day, the team will start experimenting with refining the backlog over two days. Currently we have a Wednesday meeting that is more of just a check-in with people. Not much value is generated from the allotted time, so we’ll add breaking apart some of the backlog during this time. This change should also help us properly plan future sprints in a more timely manner. Once we have broken down enough user stories we may be able to remove this from the Wednesday meeting. We’ll discuss this change at our weekly retrospective, but won’t make any changes until after the 2nd week to account for the “new thing” scare.
                         </p>
-						<img class="img-fluid" src="../assets/img/posts/In text/personalLanding.PNG">
-						<p>Throughout this whole process I gained a deep familiarity with the requirements around hosting on GitHub. In order to properly test the code without disrupting what I previously had, I needed to set up multiple repositories on GitHub. These new pages also have a different structure to them, and need special settings in order to function properly. With this knowledge I can now confidently face issues when setting up our team’s website.
-						</p>
-						<p>I plan to use more Bootstrap themes on the Celestialpod page. The reason for this is that they tend to easily work with mobile automatically, and I’ve become accustomed to working with HTML. However, this means that I will need to use more than one free theme in order to both have a simple landing page and a blog page. Using the knowledge I’ve gained, I set up two repositories: one has the landing page while one is solely dedicated to the blog. 
-						</p>
-						<img class="img-fluid" src="../assets/img/posts/In text/blogLanding.PNG">
-						<p>These are easily able to be linked back and forth since I can merely use the https address for each. It also means, once finalized, I only need to go into the blog repository to add posts instead of opening the landing page. The hard part is setting up both websites to look slick and that all the bells and whistles work. Thankfully the Blog site was pretty easy to setup, and <a href="https://gwamm.github.io/blog/index.html" target="_blank">we’ve begun posting</a>, but the base website isn’t so friendly.
-						</p>
-						<p>My main issue has been in regards to the “Features” section where we lay out the main features. Unfortunately I wasn’t able to solve all the issues that popped up, including a max file size upload limit that I ran into right at the end. In order to solve this I’m planning on messing around with Git Large File Storage. Expect another blog post to explore that bit!
-						</p>
-						<img class="img-fluid" src="../assets/img/posts/In text/websiteLanding.PNG">
-						<p>All in all I feel like I’ve become a lot more confident working with HTML as a result of this project. The team seems really excited with how the landing page looks, and I’m pumped to start sharing it. If the base website isn’t done by Sunday though I’m going to be pretty sad.
-						</p>
                         <p>Thank you for reading!</p>
 						<br>
 						<p>
